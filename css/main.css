@@ -26,3 +26,15 @@ li a {
 .active {
   font-weight: bold;
 }
+
+
+.logo{
+  margin:0 auto;
+  padding-top: 30px;
+  width:20%;
+  height:20%;
+}
+
+#photoHome {
+  padding-top: 40px;
+}
