@@ -1,40 +1,112 @@
-body{
-  margin: 0 auto;
-  width:960px;
+body p{
+  color: #262525;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+@font-face{
+  font-family:contact;
+  src:url(../fonts/TheNextFont.ttf);
 }
 
-li {
-  float: left;
+h4{
+  font-family: contact;
+  color:#262525;
 }
 
-li a {
-  display: block;
+#main-menu{
+    position: -webkit-sticky;
+    position: sticky;
+    
+}
+#menu li a{
+    color: black;
+}
+#menu li a:hover{
+   font-weight: bold;
+}
+
+.active{
+	font-weight: bold;
+}
+
+/*.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+/*.dropdown-content a {
   color: black;
-  text-align: center;
-  padding: 14px 80px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+*/
+/* Change color of dropdown links on hover */
+/*.dropdown-content a:hover {background-color: #f1f1f1}*/
+
+/* Show the dropdown menu on hover */
+/*.dropdown:hover .dropdown-content {
+  display: block;
+}*/
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  text-decoration: none;
+  width: 170px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 23px;
   text-decoration: none;
 }
 
+/* Change color of dropdown links on hover */
 
-.active {
-  font-weight: bold;
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 
-.logo{
-  margin:0 auto;
-  padding-top: 30px;
-  width:20%;
-  height:20%;
+
+.logo {
+	padding-top: 2%;
+	padding-bottom: 3%;
 }
 
-#photoHome {
-  padding-top: 40px;
+#photoHome{
+	margin-top: 10%;
+}
+
+#mainContainer{
+	padding-top: 10%;
+}
+
+.videoGallery{
+  margin-top: 5%;
+  
+}
+
+#videoContainer{
+  margin-top:10%;
+}
+
+#contact{
+  margin-top: 10%;
+}
+
+#info{
+  margin-top: 25%;
+}
+
+#social-media img{
+  margin-right: 3%;
 }
